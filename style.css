@@ -348,6 +348,13 @@ body{
     font-weight: 400;
     }
     
+
+    .decide-box{
+        display: initial;
+        justify-content: initial;
+        margin: 10px;
+    }
+    
     
     #decide{
         /* background-size: 15.625vw 4.6875vw; */
@@ -374,7 +381,7 @@ body{
         outline-offset: 2px;
         box-shadow: 0 0 0 2px white;
         box-sizing: border-box;
-        margin-left: 15px;
+        margin-right: 8px;
     }
     
     #decide:enabled{
@@ -390,20 +397,19 @@ body{
                0px 1px 0px white,  0px -1px 0px white;
                box-shadow: 0 0 0 2px yellow;
     }
-    /* .decide-box{
-        position: relative;
-    } */
+   
     
     #pass{
-        position: absolute;
+        position: initial;
         right: 10px;
         width: 100px;
         height: 50px;
         border-radius: 7px;
         font-size: 18px;
-        /* font-weight: 600; */
+        font-weight: 400;
         border-style: solid ;
         border-color: #767676;
+        margin-left: 5px;
     }
     
     /* jsで追加 */
