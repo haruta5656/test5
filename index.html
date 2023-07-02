@@ -5,36 +5,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/sanitize.css">
+    <link rel="stylesheet" href="../css/sanitize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="index.css">
-    <!-- <script src="index.js" defer></script> -->
-</head>
-<body>
-    <header>
-        <h1 class="h1">ナレッジキング対策サイト</h1>
-    </header>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100;300;400;500;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="quiz.js" defer></script>
+    <script src="index.js" defer></script>
 
-    <main class="main">
-        <div class="listbox">
-            <a href="">練習問題（10問＋5問）</a>
-            <a href="quiz1/index.html">予想問題１</a>
-            <a href="">予想問題２</a>
-            <a href="">予想問題12</a>
-            <a href=""></a>
+
+</head>
+<body id="body">
+    <div id="main">
+        <div class="relative">
+            <span id="timer"></span>
+            <span id="level"></span>
+            <div id="questionNumber"><span></span><span id="numberofquestion"></span></div>               
         </div>
-       
-        <div class="h2">分野別問題</div>
-        <div class="listbox">
-            <a href="">身長</a>
-            <a href="">好物</a>
-            <a href="">血液型</a>
-        </div>
-       
         
-    </main>
+
+        <div id="questionframe" class="questionframe">           
+            <div id="questiontype"></div> 
+            <div id="questionbox">
+                <div id="question"></div>
+            </div>   
+        </div>
+        
+    
+        <div id="options-box">
+            <button type="button" class="option-btn" ></button>
+            <button type="button" class="option-btn" ></button>
+            <button type="button" class="option-btn" ></button> 
+            <button type="button" class="option-btn" ></button>
+        </div>
+        
+        
+        <input type="text" placeholder="テキストを入力" id="input" >
+        
+    
+        
+        <div class="decide-box">
+            <button  type="button" id="decide" disabled>決定!!</button>
+            <button type="button" id="pass" >パスする</button>
+        </div>
+        <button type="button" id="pass" >パスする</button>
+        
+    </div>
+    
+    <div id="result">
+        <div></div>
+    </div>
+
 
 
 </body>
