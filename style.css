@@ -342,9 +342,9 @@ body{
     
 
     .decide-box{
-        display: grid;
-        /* justify-content: center; */
-        margin: 10px;
+       width: 370px;
+       height: 70px;
+       margin: 0 auto;
     }
     
     
@@ -365,15 +365,13 @@ body{
                0px 1px 0px #d9d9d9,  0px -1px 0px #d9d9d9;
         color: #999999;
         border-radius: 5px;
-        border-width: 0.2vw;
-        border-color: black;
-        border-style: solid;
-        border:  0px ;
+        border: solid 0px black;
         outline: solid 1.5px black;
         outline-offset: 2px;
         box-shadow: 0 0 0 2px white;
         box-sizing: border-box;
         margin-right: 0px;
+        vertical-align: middle;
     }
     
     #decide:enabled{
@@ -387,7 +385,7 @@ body{
               -1px 1px 0px white,  1px -1px 0px white,
                1px 0px 0px white, -1px  0px 0px white,
                0px 1px 0px white,  0px -1px 0px white;
-               box-shadow: 0 0 0 2px yellow;
+        box-shadow: 0 0 0 2px yellow;
     }
    
     
@@ -401,7 +399,8 @@ body{
         font-weight: 400;
         border-style: solid ;
         border-color: #767676;
-        margin-right: 0px;
+        /* margin: auto 0; */
+        vertical-align: middle;
     }
     
     /* jsで追加 */
