@@ -399,6 +399,7 @@ body{
         font-weight: 400;
         border-style: solid ;
         border-color: #767676;
+        color: #000;
         /* margin: auto 0; */
         vertical-align: middle;
     }
