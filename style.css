@@ -139,7 +139,7 @@ body{
     color: #cccccc;
 }
 
-.decide-box{
+/* .decide-box{
     display: flex;
     justify-content: center;
     margin: 10px;
@@ -152,10 +152,6 @@ body{
     margin: auto;
     width: 15.625vw;
     height: 4.6875vw;
-    /* border-radius: 9999px; */
-    font-size: 1.8rem;
-    font-weight: 600;
-    /* -webkit-text-stroke: 0.05rem white; */
     text-shadow:
            1px 1px 0px #d9d9d9, -1px -1px 0px #d9d9d9,
           -1px 1px 0px #d9d9d9,  1px -1px 0px #d9d9d9,
@@ -176,7 +172,6 @@ body{
 
 #decide:enabled{
     background-color: #c1392b;
-    /* -webkit-text-stroke: 0.05rem white; */
     color: black;
     font-size: 2.2rem;
     text-shadow:
@@ -186,9 +181,7 @@ body{
            0px 1px 0px white,  0px -1px 0px white;
            box-shadow: 0 0 0 2.5px yellow
 }
-/* .decide-box{
-    position: relative;
-} */
+
 
 #pass{
     color: #000;
@@ -198,9 +191,8 @@ body{
     height: 4.6875vw;
     border-radius: 15px;
     font-size: 1.2rem;
-    /* font-weight: 600; */
     border-style: solid ;
-}
+} */
 
 .option-btn,#input{
     font-family: 'M PLUS 1p', sans-serif;
@@ -350,8 +342,8 @@ body{
     
 
     .decide-box{
-        display: initial;
-        justify-content: initial;
+        display: grid;
+        /* justify-content: center; */
         margin: 10px;
     }
     
@@ -381,7 +373,7 @@ body{
         outline-offset: 2px;
         box-shadow: 0 0 0 2px white;
         box-sizing: border-box;
-        margin-right: 8px;
+        margin-right: 0px;
     }
     
     #decide:enabled{
@@ -405,11 +397,11 @@ body{
         width: 100px;
         height: 50px;
         border-radius: 7px;
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 400;
         border-style: solid ;
         border-color: #767676;
-        margin-left: 5px;
+        margin-right: 0px;
     }
     
     /* jsで追加 */
