@@ -180,7 +180,7 @@ function zenkaku2Hankaku(str) {
 
 
 const inputanswer =()=>{
-    $input.addEventListener('input',()=>{        
+    $input.addEventListener('change',()=>{        
        $input.value = zenkaku2Hankaku($input.value);
 
         if($input.value){
